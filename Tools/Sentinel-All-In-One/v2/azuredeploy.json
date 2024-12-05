@@ -58,13 +58,6 @@
             },
             "defaultValue": []
         },
-        "severityLevels": {
-            "type": "array",
-            "metadata": {
-                "description": "Severity levels desired for Analytics Rules"
-            },
-            "defaultValue": []
-        },
         "dailyQuota": {
             "type": "int",
             "metadata": {
@@ -131,20 +124,6 @@
         },
         "enableDiagnostics": {
             "type": "bool",
-            "defaultValue": true
-        },
-        "enableMLAlerts": {
-            "type": "bool",
-            "metadata": {
-                "description": "Enable ML Behavior Analytics rules"
-            },
-            "defaultValue": true
-        },
-        "enableScheduledAlerts": {
-            "type": "bool",
-            "metadata": {
-                "description": "Enable Scheduled analytics rules"
-            },
             "defaultValue": true
         },
         "_artifactsLocation": {
