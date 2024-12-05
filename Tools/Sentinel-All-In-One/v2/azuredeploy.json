@@ -131,21 +131,21 @@
         },
         "enableDiagnostics": {
             "type": "bool",
-            "defaultValue": false
+            "defaultValue": true
         },
         "enableMLAlerts": {
             "type": "bool",
             "metadata": {
                 "description": "Enable ML Behavior Analytics rules"
             },
-            "defaultValue": false
+            "defaultValue": true
         },
         "enableScheduledAlerts": {
             "type": "bool",
             "metadata": {
                 "description": "Enable Scheduled analytics rules"
             },
-            "defaultValue": false
+            "defaultValue": true
         },
         "_artifactsLocation": {
             "type": "string",
