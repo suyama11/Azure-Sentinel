@@ -3,16 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "rgName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "rg-data3-managedSentinel"   
         },
         "location": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "Australia East"
         },
         "workspaceName": {
             "type": "string",
             "metadata": {
                 "description": "Name for the Log Analytics workspace"
-            }
+            },
+            "defaultValue": "ws-data3-managedSentinel"
         },
         "pricingTier": {
             "type": "string",
@@ -124,10 +127,11 @@
             "metadata": {
                 "description": "Array of identity providers to be synched with UEBA. Valid identity providers are 'ActiveDirectory' and 'AzureActiveDirectory'"
             },
-            "defaultValue": []
+            "defaultValue": ["AzureActiveDirectory"]
         },
         "enableDiagnostics": {
-            "type": "bool"
+            "type": "bool",
+            "defaultValue": false
         },
         "enableMLAlerts": {
             "type": "bool",
