@@ -138,14 +138,14 @@
             "metadata": {
                 "description": "Enable ML Behavior Analytics rules"
             },
-            "defaultValue": true
+            "defaultValue": false
         },
         "enableScheduledAlerts": {
             "type": "bool",
             "metadata": {
                 "description": "Enable Scheduled analytics rules"
             },
-            "defaultValue": true
+            "defaultValue": false
         },
         "_artifactsLocation": {
             "type": "string",
