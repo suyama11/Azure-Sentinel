@@ -4,7 +4,7 @@
     "parameters": {
         "rgName": {
             "type": "string",
-            "defaultValue": "rg-data3-managed-sentinel"   
+            "defaultValue": "rg-data3-managed-sentinel-test2"   
         },
         "location": {
             "type": "string",
@@ -15,7 +15,7 @@
             "metadata": {
                 "description": "Name for the Log Analytics workspace"
             },
-            "defaultValue": "ws-data3-managed-sentinel"
+            "defaultValue": "ws-data3-managed-sentinel-test2"
         },
         "pricingTier": {
             "type": "string",
